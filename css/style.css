@@ -1,0 +1,141 @@
+body{
+  background-color: #252830;
+}
+
+/* online-color:#1BC98E; */
+/* offline-color:#E64759; */
+.logo{
+  width: 60%;
+}
+.container{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.alert{
+  background-color: #1BC98E!important;
+  border:0px!important;
+}
+.status{
+  padding-top: 20px!important;
+}
+a , a:hover{
+  color: black;
+}
+.menu{
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.head{
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #E64759!important;
+  color: #eeeeee;
+  text-align: center;
+  font-weight: bold;
+}
+.md{
+  text-align: left;
+}
+.hide{
+  display: none;
+}
+.on{}
+.off{}
+  .btnS{
+    color: #F5F5F5;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: underline;
+    text-align: center;
+    padding-left: 14px;
+  }
+  .all {
+    position: relative;
+  }
+.allA {
+  content: "";
+	width: 0px;
+	height: 0px;
+	border: 0.8em solid #252830;
+	position: absolute;
+  left: 45%;
+	bottom: -22px;
+	border-top: 10px solid #F0F0F0;
+  /* background-color: #F0F0F0; */
+}
+
+.offline {
+  position: relative;
+}
+.offlineA {
+content: "";
+width: 0px;
+height: 0px;
+border: 0.8em solid #252830;
+position: absolute;
+left: 45%;
+bottom: -23px;
+border-top: 10px solid #F0F0F0;
+/* background-color: #F0F0F0; */
+}
+
+.online {
+  position: relative;
+}
+.onlineA {
+content: "";
+width: 0px;
+height: 0px;
+border: 0.8em solid #252830;
+position: absolute;
+left: 45%;
+bottom: -23px;
+border-top: 10px solid #F0F0F0;
+/* background-color: #F0F0F0; */
+}
+
+
+@media(max-width: 1600px) {
+  .container{
+    width: 50%;
+    text-align: center;
+  }
+}
+@media(max-width: 1440px) {
+  .container{
+    width: 60%;
+    text-align: center;
+  }
+}
+@media(max-width: 1366px) {
+  .container{
+    width: 70%;
+    text-align: center;
+  }
+}
+@media(max-width: 1280px) {
+  .container{
+    width: 80%;
+    text-align: center;
+  }
+}
+@media(max-width: 1024px) {
+  .container{
+    width: 80%;
+    text-align: center;
+  }
+  .md{
+    text-align: center;
+  }
+}
+@media(max-width: 746px) {
+  .container{
+    width: 90%;
+  }
+  .md{
+    text-align: center;
+  }
+}
